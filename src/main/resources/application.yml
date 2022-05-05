@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://speproject.database.windows.net:1433;database=speprojectdb;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: hrithik
+    password: hs.hri@123
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect : org.hibernate.dialect.SQLServer2017Dialect
+
+server:
+  port: 8090
+
+
