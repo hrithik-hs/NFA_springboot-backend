@@ -21,7 +21,8 @@ import com.example.springboot.exception.ResourceNotFoundException;
 import com.example.springboot.model.Employee;
 import com.example.springboot.repository.EmployeeRepository;
 
-@CrossOrigin(origins="http://localhost:3000/")
+//@CrossOrigin(origins="http://localhost:3000/")
+@CrossOrigin(origins="https://nfatodfa.azurewebsites.net/")
 @RestController
 @RequestMapping("/api/v1") // Mapping api url
 public class EmployeeController {

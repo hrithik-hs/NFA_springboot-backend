@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level  %logger{36} - %msg%n" />
+        </Console>
+        <File name="FileAppender" fileName="nfatodfa.log" immediateFlush="false" append="true">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.example.springboot.controller" level="debug">
+            <AppenderRef ref="FileAppender"/>
+        </Logger>
+        <Logger name="com.example.springboot.exception" level="debug">
+            <AppenderRef ref="FileAppender"/>
+        </Logger>
+        <Logger name="com.example.springboot.model" level="debug">
+            <AppenderRef ref="FileAppender"/>
+        </Logger>
+        <Logger name="com.example.springboot.repository" level="debug">
+            <AppenderRef ref="FileAppender"/>
+        </Logger>
+        <Logger name="com.example.springboot.SpringbootBackendApplicationTests" level="debug">
+            <AppenderRef ref="FileAppender"/>
+        </Logger>
+        <Logger name="com.example.springboot.SpringbootBackendApplication" level="debug">
+            <AppenderRef ref="FileAppender"/>
+        </Logger>
+        <Root level="debug">
+            <AppenderRef ref="ConsoleAppender" />
+        </Root>
+    </Loggers>
+</Configuration>

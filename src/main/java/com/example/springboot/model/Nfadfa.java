@@ -10,7 +10,6 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "nfa")
 public class Nfadfa {
-	
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)//primary key generation.

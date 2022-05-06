@@ -1,0 +1,2 @@
+2022-05-06 11:43:51.717 [http-nio-8090-exec-1] INFO  com.example.springboot.controller.NfadfaController - [Get All NFA]
+2022-05-06 11:43:59.448 [http-nio-8090-exec-3] INFO  com.example.springboot.controller.NfadfaController - [Get NFA and DFA by ID] - 1
