@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.util.Objects;
 
 @Entity
 @Table(name = "nfa")
@@ -13,7 +14,7 @@ public class Nfadfa {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)//primary key generation.
-	private long id;
+	private Long id;
 	
 	@Column(name = "states") //column name to field table
 	private String states;
@@ -91,6 +92,20 @@ public class Nfadfa {
 	public void setTransition(String transition) {
 		this.transition = transition;
 	}
-	
-	
+
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		Nfadfa nfadfa = (Nfadfa) o;
+
+		if(nfadfa.id != null && nfadfa.id != id) return false;
+		return states.equals(nfadfa.states) && symbols.equals(nfadfa.symbols) && initialState.equals(nfadfa.initialState) && finalState.equals(nfadfa.finalState) && transition.equals(nfadfa.transition);
+
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(id, states, symbols, initialState, finalState, transition);
+	}
 }

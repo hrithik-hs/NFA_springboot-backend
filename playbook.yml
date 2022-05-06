@@ -1,0 +1,12 @@
+- name: Pull and Run docker image
+  hosts: vm-server
+  tasks:
+    - name: Pull sahajv/spe_backend
+      docker_image:
+        name: sahajv/spe_backend
+        source: pull
+    - name: Create a data container
+      docker_container:
+        name: spe-backend
+        image: sahajv/spe_backend
+        ports: "80:8090"

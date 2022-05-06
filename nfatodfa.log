@@ -1,2 +1,356 @@
 2022-05-06 11:43:51.717 [http-nio-8090-exec-1] INFO  com.example.springboot.controller.NfadfaController - [Get All NFA]
 2022-05-06 11:43:59.448 [http-nio-8090-exec-3] INFO  com.example.springboot.controller.NfadfaController - [Get NFA and DFA by ID] - 1
+2022-05-06 13:01:18.688 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 13216 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:01:18.693 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:01:18.694 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:01:20.083 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.692 seconds (JVM running for 2.77)
+2022-05-06 13:01:20.197 [main] INFO  com.example.springboot.controller.NfadfaController - [Create NFA]
+2022-05-06 13:02:09.588 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 20512 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:02:09.597 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:02:09.597 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:02:10.941 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.633 seconds (JVM running for 2.769)
+2022-05-06 13:02:11.049 [main] INFO  com.example.springboot.controller.NfadfaController - [Create NFA]
+2022-05-06 13:03:53.733 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 20460 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:03:53.741 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:03:53.742 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:03:54.975 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.497 seconds (JVM running for 2.474)
+2022-05-06 13:03:55.079 [main] INFO  com.example.springboot.controller.NfadfaController - [Create NFA]
+2022-05-06 13:06:36.541 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 11124 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:06:36.548 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:06:36.548 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:06:37.746 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.448 seconds (JVM running for 2.41)
+2022-05-06 13:06:37.843 [main] INFO  com.example.springboot.controller.NfadfaController - [Create NFA]
+2022-05-06 13:17:19.743 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 14520 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:17:19.751 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:17:19.752 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:17:20.986 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.495 seconds (JVM running for 2.578)
+2022-05-06 13:18:28.452 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 1772 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:18:28.464 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:18:28.465 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:18:29.649 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.449 seconds (JVM running for 2.438)
+2022-05-06 13:18:29.705 [main] INFO  com.example.springboot.controller.NfadfaController - [Get All NFA]
+2022-05-06 13:18:53.916 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 22696 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:18:53.925 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:18:53.930 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:18:55.087 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.431 seconds (JVM running for 2.538)
+2022-05-06 13:18:55.138 [main] INFO  com.example.springboot.controller.NfadfaController - [Get All NFA]
+2022-05-06 13:23:02.208 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 22224 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:23:02.224 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:23:02.224 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:23:03.447 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.498 seconds (JVM running for 2.467)
+2022-05-06 13:23:03.504 [main] INFO  com.example.springboot.controller.NfadfaController - [Get NFA and DFA by ID] - 5
+2022-05-06 13:23:03.512 [main] INFO  com.example.springboot.exception.ResourceNotFoundException - [Error - ResourceNotFoundException]Does not exist with id: 5
+2022-05-06 13:23:42.341 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 3040 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:23:42.348 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:23:42.349 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:23:43.557 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.462 seconds (JVM running for 2.409)
+2022-05-06 13:23:43.615 [main] INFO  com.example.springboot.controller.NfadfaController - [Get NFA and DFA by ID] - 1
+2022-05-06 13:23:43.616 [main] INFO  com.example.springboot.exception.ResourceNotFoundException - [Error - ResourceNotFoundException]Does not exist with id: 1
+2022-05-06 13:24:04.623 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 14836 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:24:04.630 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:24:04.635 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:24:05.826 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.451 seconds (JVM running for 2.407)
+2022-05-06 13:24:05.886 [main] INFO  com.example.springboot.controller.NfadfaController - [Get NFA and DFA by ID] - 1
+2022-05-06 13:24:05.888 [main] INFO  com.example.springboot.exception.ResourceNotFoundException - [Error - ResourceNotFoundException]Does not exist with id: 1
+2022-05-06 13:24:47.470 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 17960 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:24:47.479 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:24:47.480 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:24:48.928 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.74 seconds (JVM running for 3.425)
+2022-05-06 13:25:57.018 [main] INFO  com.example.springboot.controller.NfadfaController - [Get NFA and DFA by ID] - 1
+2022-05-06 13:25:57.020 [main] INFO  com.example.springboot.exception.ResourceNotFoundException - [Error - ResourceNotFoundException]Does not exist with id: 1
+2022-05-06 13:26:14.381 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 12468 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:26:14.388 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:26:14.389 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:26:15.562 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.433 seconds (JVM running for 2.407)
+2022-05-06 13:26:15.615 [main] INFO  com.example.springboot.controller.NfadfaController - [Get All NFA]
+2022-05-06 13:26:37.676 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 15480 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:26:37.682 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:26:37.683 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:26:38.819 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.389 seconds (JVM running for 2.349)
+2022-05-06 13:26:38.873 [main] INFO  com.example.springboot.controller.NfadfaController - [Get NFA and DFA by ID] - 1
+2022-05-06 13:26:38.874 [main] INFO  com.example.springboot.exception.ResourceNotFoundException - [Error - ResourceNotFoundException]Does not exist with id: 1
+2022-05-06 13:29:28.070 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 13752 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:29:28.078 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:29:28.079 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:29:29.302 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.48 seconds (JVM running for 2.515)
+2022-05-06 13:29:29.358 [main] INFO  com.example.springboot.controller.NfadfaController - [Get NFA and DFA by ID] - 1
+2022-05-06 13:29:43.734 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 18792 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:29:43.742 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:29:43.743 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:29:44.906 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.423 seconds (JVM running for 2.374)
+2022-05-06 13:29:44.966 [main] INFO  com.example.springboot.controller.NfadfaController - [Get NFA and DFA by ID] - 1
+2022-05-06 13:34:19.642 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 12524 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:34:19.651 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:34:19.651 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:34:20.815 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.415 seconds (JVM running for 2.409)
+2022-05-06 13:34:20.912 [main] INFO  com.example.springboot.controller.NfadfaController - [Create NFA]
+2022-05-06 13:34:48.736 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 5008 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:34:48.743 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:34:48.748 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:34:49.932 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.449 seconds (JVM running for 2.44)
+2022-05-06 13:36:51.385 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 1888 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:36:51.392 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:36:51.393 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:36:52.670 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.551 seconds (JVM running for 2.581)
+2022-05-06 13:36:52.778 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 13:38:32.020 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 22780 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:38:32.028 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:38:32.029 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:38:33.277 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.516 seconds (JVM running for 2.493)
+2022-05-06 13:38:33.379 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 13:39:58.677 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 11712 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:39:58.689 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:39:58.690 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:39:59.860 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.434 seconds (JVM running for 2.425)
+2022-05-06 13:39:59.955 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 13:41:32.245 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 13252 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:41:32.251 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:41:32.252 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:41:33.443 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.465 seconds (JVM running for 2.469)
+2022-05-06 13:41:33.538 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 13:44:09.916 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 20964 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:44:09.922 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:44:09.923 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:44:11.320 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.678 seconds (JVM running for 2.897)
+2022-05-06 13:44:11.400 [main] INFO  com.example.springboot.controller.NfadfaController - [Get NFA and DFA by ID] - 1
+2022-05-06 13:44:25.931 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 3440 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:44:25.936 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:44:25.936 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:44:27.157 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.467 seconds (JVM running for 2.443)
+2022-05-06 13:44:27.263 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 13:44:44.362 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 12748 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:44:44.370 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:44:44.371 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:44:45.744 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.657 seconds (JVM running for 2.788)
+2022-05-06 13:44:45.874 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 13:45:30.322 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 17932 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:45:30.329 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:45:30.330 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:45:31.730 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.682 seconds (JVM running for 2.787)
+2022-05-06 13:45:31.862 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 13:46:21.151 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 22520 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:46:21.157 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:46:21.158 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:46:22.395 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.485 seconds (JVM running for 2.449)
+2022-05-06 13:46:22.491 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 13:46:58.681 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 16732 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:46:58.688 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:46:58.688 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:46:59.874 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.437 seconds (JVM running for 2.395)
+2022-05-06 13:46:59.967 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 5
+2022-05-06 13:48:14.501 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 19304 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:48:14.508 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:48:14.509 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:48:15.701 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.459 seconds (JVM running for 2.437)
+2022-05-06 13:48:15.799 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 13:50:58.403 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 15976 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:50:58.409 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:50:58.410 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:50:59.722 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.598 seconds (JVM running for 2.571)
+2022-05-06 13:50:59.820 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 13:52:27.733 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 16208 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:52:27.746 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:52:27.747 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:52:28.949 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.464 seconds (JVM running for 2.436)
+2022-05-06 13:52:29.050 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 13:53:26.597 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 6196 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:53:26.605 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:53:26.605 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:53:27.802 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.459 seconds (JVM running for 2.421)
+2022-05-06 13:53:27.897 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 13:54:27.545 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 11404 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:54:27.556 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:54:27.559 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:54:28.764 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.477 seconds (JVM running for 2.434)
+2022-05-06 13:54:28.860 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 13:55:07.450 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 3136 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:55:07.461 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:55:07.461 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:55:08.641 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 1.435 seconds (JVM running for 2.395)
+2022-05-06 13:55:08.742 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 16:33:44.036 [main] INFO  com.example.springboot.SpringbootBackendApplicationTests - Starting SpringbootBackendApplicationTests using Java 18 on HS with PID 19612 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:33:44.048 [main] DEBUG com.example.springboot.SpringbootBackendApplicationTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:33:44.048 [main] INFO  com.example.springboot.SpringbootBackendApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:34:50.037 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 23020 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:34:50.039 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:34:50.039 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:34:53.136 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 3.773 seconds (JVM running for 6.043)
+2022-05-06 16:34:53.248 [main] INFO  com.example.springboot.controller.NfadfaController - [Get All NFA]
+2022-05-06 16:34:53.456 [main] INFO  com.example.springboot.controller.NfadfaController - [Get NFA and DFA by ID] - 1
+2022-05-06 16:34:53.512 [main] INFO  com.example.springboot.controller.NfadfaController - [Create NFA]
+2022-05-06 16:34:53.528 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 16:34:53.616 [main] INFO  com.example.springboot.SpringbootBackendApplicationTests - Starting SpringbootBackendApplicationTests using Java 18 on HS with PID 23020 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:34:53.624 [main] DEBUG com.example.springboot.SpringbootBackendApplicationTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:34:53.624 [main] INFO  com.example.springboot.SpringbootBackendApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:37:09.020 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 16976 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:37:09.035 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:37:09.039 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:37:12.070 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 3.721 seconds (JVM running for 5.961)
+2022-05-06 16:37:12.310 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 16:39:00.445 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 21964 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:39:00.459 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:39:00.459 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:39:03.375 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 3.582 seconds (JVM running for 6.233)
+2022-05-06 16:39:03.594 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 16:46:05.690 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 7224 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:46:05.703 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:46:05.707 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:46:08.610 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 3.59 seconds (JVM running for 5.999)
+2022-05-06 16:46:08.869 [main] INFO  com.example.springboot.controller.NfadfaController - [Create NFA]
+2022-05-06 16:49:09.427 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 9772 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:49:09.447 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:49:09.447 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:49:12.506 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 3.715 seconds (JVM running for 6.45)
+2022-05-06 16:49:12.716 [main] INFO  com.example.springboot.controller.NfadfaController - [Create NFA]
+2022-05-06 12:38:02.868 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 19328 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 12:38:02.870 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 12:38:02.871 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 12:38:06.619 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Started SpringbootBackendApplication in 4.04 seconds (JVM running for 4.804)
+2022-05-06 12:38:16.246 [http-nio-8090-exec-2] INFO  com.example.springboot.controller.NfadfaController - [Get All NFA]
+2022-05-06 12:38:49.903 [http-nio-8090-exec-3] INFO  com.example.springboot.controller.NfadfaController - [Create NFA]
+2022-05-06 12:57:17.132 [http-nio-8090-exec-5] INFO  com.example.springboot.controller.NfadfaController - [Get All NFA]
+2022-05-06 12:57:25.153 [http-nio-8090-exec-7] INFO  com.example.springboot.controller.NfadfaController - [Delete NFA] - 4
+2022-05-06 12:57:32.439 [http-nio-8090-exec-8] INFO  com.example.springboot.controller.NfadfaController - [Get NFA and DFA by ID] - 4
+2022-05-06 12:57:32.606 [http-nio-8090-exec-8] INFO  com.example.springboot.exception.ResourceNotFoundException - [Error - ResourceNotFoundException]Does not exist with id: 4
+2022-05-06 12:57:37.452 [http-nio-8090-exec-9] INFO  com.example.springboot.controller.NfadfaController - [Get All NFA]
+2022-05-06 13:01:12.863 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 19328 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:01:12.863 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:01:12.864 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:01:14.095 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Started SpringbootBackendApplication in 1.288 seconds (JVM running for 1392.28)
+2022-05-06 13:01:15.751 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 19328 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:01:15.751 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:01:15.751 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:01:16.547 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Started SpringbootBackendApplication in 0.822 seconds (JVM running for 1394.732)
+2022-05-06 13:02:08.978 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 19328 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 13:02:08.979 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 13:02:08.979 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 13:02:10.056 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Started SpringbootBackendApplication in 1.122 seconds (JVM running for 1448.24)
+2022-05-06 13:09:26.248 [http-nio-8090-exec-2] INFO  com.example.springboot.controller.NfadfaController - [Get All NFA]
+2022-05-06 16:33:08.301 [http-nio-8090-exec-5] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 16:34:17.713 [http-nio-8090-exec-7] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 16:35:16.443 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 19328 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:35:16.443 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:35:16.443 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:35:53.961 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 19328 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:35:53.976 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:35:53.976 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:49:03.805 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 19328 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:49:03.820 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:49:03.820 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:49:29.636 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 19328 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:49:29.636 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:49:29.636 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:49:31.461 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Started SpringbootBackendApplication in 1.91 seconds (JVM running for 15089.691)
+2022-05-06 16:49:33.226 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 19328 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:49:33.236 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:49:33.236 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:50:06.632 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 19328 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-02022-05-06 16:50:09.170 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 17580 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:50:09.182 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:50:09.186 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:50:12.122 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 3.603 seconds (JVM running for 6.427)
+2022-05-06 16:50:12.358 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 16:49:36.466 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 8252 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:49:36.506 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:49:36.506 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:49:40.161 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 4.404 seconds (JVM running for 6.884)
+2022-05-06 16:49:40.309 [main] INFO  com.example.springboot.controller.NfadfaController - [Get All NFA]
+2022-05-06 16:49:40.546 [main] INFO  com.example.springboot.controller.NfadfaController - [Get NFA and DFA by ID] - 1
+2022-05-06 16:49:40.626 [main] INFO  com.example.springboot.controller.NfadfaController - [Create NFA]
+2022-05-06 16:49:40.647 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 16:49:40.736 [main] INFO  com.example.springboot.SpringbootBackendApplicationTests - Starting SpringbootBackendApplicationTests using Java 18 on HS with PID 8252 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:49:40.736 [main] DEBUG com.example.springboot.SpringbootBackendApplicationTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:49:40.741 [main] INFO  com.example.springboot.SpringbootBackendApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:50:18.188 [main] INFO  com.example.springboot.SpringbootBackendApplicationTests - Started SpringbootBackendApplicationTests in 37.5 seconds (JVM running for 44.908)
+6 16:50:06.637 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:50:06.639 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:50:52.939 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 11696 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:50:52.949 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:50:52.949 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:50:55.689 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 3.314 seconds (JVM running for 5.876)
+2022-05-06 16:50:55.909 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 16:52:00.091 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 14728 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:52:00.101 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:52:00.101 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:52:02.941 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 3.421 seconds (JVM running for 5.725)
+2022-05-06 16:52:03.152 [main] INFO  com.example.springboot.controller.NfadfaController - [Create NFA]
+2022-05-06 16:53:41.121 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 17152 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:53:41.137 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:53:41.137 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:53:43.985 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 3.464 seconds (JVM running for 5.665)
+2022-05-06 16:53:44.200 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 16:54:41.497 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 18072 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:54:41.517 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:54:41.517 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:54:44.258 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 3.34 seconds (JVM running for 5.606)
+2022-05-06 16:54:44.517 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 16:56:10.213 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 6876 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:56:10.230 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:56:10.230 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:56:12.955 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 3.351 seconds (JVM running for 5.512)
+2022-05-06 16:56:13.218 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 16:56:27.025 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 1388 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:56:27.055 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:56:27.055 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:56:29.901 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 3.46 seconds (JVM running for 5.746)
+2022-05-06 16:56:30.121 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 16:56:47.645 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 19688 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:56:47.660 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:56:47.671 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:56:50.391 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 3.33 seconds (JVM running for 5.513)
+2022-05-06 16:56:50.606 [main] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 16:37:37.932 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 16052 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:37:37.942 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:37:37.942 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:37:48.371 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Started SpringbootBackendApplication in 11.077 seconds (JVM running for 12.597)
+2022-05-06 16:37:59.932 [http-nio-8090-exec-2] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 16:38:22.404 [http-nio-8090-exec-3] INFO  com.example.springboot.controller.NfadfaController - [Update NFA] - 1
+2022-05-06 16:49:04.615 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 16052 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:49:04.616 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:49:04.616 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:49:07.567 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Started SpringbootBackendApplication in 3.159 seconds (JVM running for 691.794)
+2022-05-06 16:49:09.545 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 16052 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:49:09.545 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:49:09.545 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:49:11.271 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Started SpringbootBackendApplication in 1.806 seconds (JVM running for 695.497)
+2022-05-06 16:49:29.678 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 16052 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:49:29.679 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:49:29.680 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:49:33.421 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 16052 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:49:33.424 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:49:33.426 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:50:06.447 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 16052 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:50:06.452 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:50:06.452 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:50:19.438 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Started SpringbootBackendApplication in 13.263 seconds (JVM running for 763.666)
+2022-05-06 16:50:47.919 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 16052 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:50:47.923 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:50:47.923 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:50:49.692 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 16052 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:50:49.692 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:50:49.692 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:50:52.079 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Started SpringbootBackendApplication in 2.422 seconds (JVM running for 796.304)
+2022-05-06 16:54:37.210 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 16052 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:54:37.210 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:54:37.210 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:54:38.951 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 16052 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:54:38.951 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:54:38.951 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 16:54:40.697 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Started SpringbootBackendApplication in 1.781 seconds (JVM running for 1024.922)
+2022-05-06 16:59:58.437 [restartedMain] INFO  com.example.springboot.SpringbootBackendApplication - Starting SpringbootBackendApplication using Java 18 on HS with PID 16052 (C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend\target\classes started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 16:59:58.437 [restartedMain] DEBUG com.example.springboot.SpringbootBackendApplication - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 16:59:58.437 [restartedMain] INFO  com.example.springboot.SpringbootBacke2022-05-06 17:00:03.603 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 15016 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 17:00:03.612 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 17:00:03.612 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 17:00:06.461 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 3.45 seconds (JVM running for 5.903)
+2022-05-06 17:00:06.668 [main] INFO  com.example.springboot.controller.NfadfaController - [Create NFA]
+2022-05-06 17:30:09.832 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 9952 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 17:30:09.843 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 17:30:09.843 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 17:30:12.698 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 3.476 seconds (JVM running for 5.89)
+2022-05-06 17:30:12.824 [main] INFO  com.example.springboot.controller.NfadfaController - [Delete NFA] - 1
+2022-05-06 17:30:56.155 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Starting NfadfaControllerTests using Java 18 on HS with PID 14608 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-06 17:30:56.155 [main] DEBUG com.example.springboot.controller.NfadfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-06 17:30:56.171 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-06 17:30:59.021 [main] INFO  com.example.springboot.controller.NfadfaControllerTests - Started NfadfaControllerTests in 3.469 seconds (JVM running for 5.695)
+2022-05-06 17:30:59.162 [main] INFO  com.example.springboot.controller.NfadfaController - [Delete NFA] - 1

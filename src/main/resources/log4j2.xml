@@ -27,8 +27,8 @@
         <Logger name="com.example.springboot.SpringbootBackendApplication" level="debug">
             <AppenderRef ref="FileAppender"/>
         </Logger>
-        <Root level="debug">
-            <AppenderRef ref="ConsoleAppender" />
-        </Root>
+<!--        <Root level="debug">-->
+<!--            <AppenderRef ref="ConsoleAppender" />-->
+<!--        </Root>-->
     </Loggers>
 </Configuration>
