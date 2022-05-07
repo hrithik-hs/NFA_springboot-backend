@@ -21,14 +21,14 @@
         <Logger name="com.example.springboot.repository" level="debug">
             <AppenderRef ref="FileAppender"/>
         </Logger>
-        <Logger name="com.example.springboot.SpringbootBackendApplicationTests" level="debug">
-            <AppenderRef ref="FileAppender"/>
-        </Logger>
-        <Logger name="com.example.springboot.SpringbootBackendApplication" level="debug">
-            <AppenderRef ref="FileAppender"/>
-        </Logger>
-<!--        <Root level="debug">-->
-<!--            <AppenderRef ref="ConsoleAppender" />-->
-<!--        </Root>-->
+<!--        <Logger name="com.example.springboot.SpringbootBackendApplicationTests" level="debug">-->
+<!--            <AppenderRef ref="FileAppender"/>-->
+<!--        </Logger>-->
+<!--        <Logger name="com.example.springboot.SpringbootBackendApplication" level="debug">-->
+<!--            <AppenderRef ref="FileAppender"/>-->
+<!--        </Logger>-->
+        <Root level="debug">
+            <AppenderRef ref="ConsoleAppender" />
+        </Root>
     </Loggers>
 </Configuration>

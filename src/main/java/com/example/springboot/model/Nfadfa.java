@@ -14,7 +14,7 @@ public class Nfadfa {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)//primary key generation.
-	private Long id;
+	private long id;
 	
 	@Column(name = "states") //column name to field table
 	private String states;
@@ -99,7 +99,7 @@ public class Nfadfa {
 		if (o == null || getClass() != o.getClass()) return false;
 		Nfadfa nfadfa = (Nfadfa) o;
 
-		if(nfadfa.id != null && nfadfa.id != id) return false;
+//		if(nfadfa.id != null && nfadfa.id != id) return false;
 		return states.equals(nfadfa.states) && symbols.equals(nfadfa.symbols) && initialState.equals(nfadfa.initialState) && finalState.equals(nfadfa.finalState) && transition.equals(nfadfa.transition);
 
 	}

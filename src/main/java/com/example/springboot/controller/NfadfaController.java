@@ -22,8 +22,9 @@ import com.example.springboot.exception.InvalidResourceException;
 import com.example.springboot.model.Nfadfa;
 import com.example.springboot.repository.NfadfaRepository;
 
-//@CrossOrigin(origins="http://localhost:3000/")
-@CrossOrigin(origins="https://nfatodfa.azurewebsites.net/")
+
+//@CrossOrigin(origins="https://nfatodfa.azurewebsites.net/")
+@CrossOrigin(origins="http://localhost:3000/")
 @RestController
 @RequestMapping("/") // Mapping api url
 public class NfadfaController {
@@ -33,15 +34,15 @@ public class NfadfaController {
 	private NfadfaRepository nfadfaRepository;
 	
 	//all nfadfa
-	@GetMapping("/nfadfas")
-	public List<Nfadfa>getAllNfadfas(){
+	@GetMapping("/nfa")
+	public List<Nfadfa>getAllNfas(){
 		logger.info("[Get All NFA]");
 		return nfadfaRepository.findAll();
 	}
 	
 	//create nfadfa 
-	@PostMapping("/nfadfas")
-	public Nfadfa createNfadfa(@RequestBody Nfadfa nfadfa) throws InvalidResourceException {
+	@PostMapping("/nfa")
+	public Nfadfa createNfa(@RequestBody Nfadfa nfadfa) throws InvalidResourceException {
 		logger.info("[Create NFA]");
 		String[] stateList = nfadfa.getStates().split(",");
 		String[] symbolList = nfadfa.getSymbols().split(",");
@@ -87,22 +88,31 @@ public class NfadfaController {
 	}
 	
 	//get nfadfa by id
-	@GetMapping("/nfadfas/{id}")
-	public ResponseEntity<List<Nfadfa>> getNfadfasbyId(@PathVariable Long id){
+	@GetMapping("/nfa/{id}")
+	public ResponseEntity<Nfadfa> getNfabyId(@PathVariable Long id){
+		logger.info("[Get NFA by ID] - "+ id);
+		Nfadfa nfadfa=nfadfaRepository.findById(id)
+				.orElseThrow(() -> new ResourceNotFoundException("Does not exist with id: "+ id) );
+		return ResponseEntity.ok(nfadfa);
+	}
+
+
+	@GetMapping("/nfa/dfa/{id}")
+	public ResponseEntity<List<Nfadfa>> getNfaDfabyId(@PathVariable Long id){
 		logger.info("[Get NFA and DFA by ID] - "+ id);
 		Nfadfa nfadfa=nfadfaRepository.findById(id)
 				.orElseThrow(() -> new ResourceNotFoundException("Does not exist with id: "+ id) );
 
 		List <Nfadfa> list=new ArrayList<>();
 		list.add(nfadfa);
-		list.add(nfadfa);
+		Nfadfa nfadfa1 =new Nfadfa(nfadfa.getId()+1,nfadfa.getStates(),nfadfa.getSymbols(),nfadfa.getInitialState(),nfadfa.getFinalState(),nfadfa.getTransition());
+		list.add(nfadfa1);
 
 		return ResponseEntity.ok(list);
 	}
-	
 	// update nfadfa rest api
-	@PutMapping("/nfadfas/{id}")
-	public ResponseEntity<Nfadfa> updateNfadfa(@PathVariable Long id, @RequestBody Nfadfa nfadfaDetails) throws InvalidResourceException{
+	@PutMapping("/nfa/{id}")
+	public ResponseEntity<Nfadfa> updateNfa(@PathVariable Long id, @RequestBody Nfadfa nfadfaDetails) throws InvalidResourceException{
 		logger.info("[Update NFA] - "+ id);
 		String[] stateList = nfadfaDetails.getStates().split(",");
 		String[] symbolList = nfadfaDetails.getSymbols().split(",");
@@ -159,8 +169,8 @@ public class NfadfaController {
 	}
 	
 	// delete nfadfa api
-	@DeleteMapping("/nfadfas/{id}")
-	public ResponseEntity<Map<String, Boolean>> deleteNfadfa(@PathVariable Long id){
+	@DeleteMapping("/nfa/{id}")
+	public ResponseEntity<Map<String, Boolean>> deleteNfa(@PathVariable Long id){
 		logger.info("[Delete NFA] - "+ id);
 		Nfadfa nfadfa = nfadfaRepository.findById(id)
 				.orElseThrow(() -> new ResourceNotFoundException("Does not exist with id: " + id));
