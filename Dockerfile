@@ -16,3 +16,5 @@ ENTRYPOINT ["java", "-jar", "docker-spring-boot.jar"]
 # docker login speproject.azurecr.io  Username Password -> Access keys azure
 # docker push hrithikhs/springboot-backend
 #
+
+# ansible_ssh_pass=Hrithik#1999
