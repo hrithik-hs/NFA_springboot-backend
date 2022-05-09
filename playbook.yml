@@ -1,12 +1,12 @@
 - name: Pull and Run docker image
-  hosts: vm-server
+  hosts: VM-ubuntu20
   tasks:
-    - name: Pull sahajv/spe_backend
+    - name: Pull hrithikhs/springboot-backend image
       docker_image:
-        name: sahajv/spe_backend
+        name: hrithikhs/springboot-backend
         source: pull
-    - name: Create a data container
+    - name: Run docker image
       docker_container:
-        name: spe-backend
-        image: sahajv/spe_backend
-        ports: "80:8090"
+        name: springboot-backend
+        image: hrithikhs/springboot-backend
+        ports: "8090:8090"
