@@ -24,7 +24,7 @@ import com.example.springboot.repository.NfadfaRepository;
 
 
 //@CrossOrigin(origins="https://nfatodfa.azurewebsites.net/")
-@CrossOrigin(origins="http://localhost:3000/")
+@CrossOrigin(origins= {"http://localhost:3000/", "https://spe-nfatodfa.netlify.app"})
 @RestController
 @RequestMapping("/") // Mapping api url
 public class NfadfaController {

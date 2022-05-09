@@ -9,10 +9,10 @@ ENTRYPOINT ["java", "-jar", "docker-spring-boot.jar"]
 # create web app for container
 
 # mvn clean install
-# docker build -f Dockerfile -t speproject.azurecr.io/docker-spring-boot .
+# docker build -f Dockerfile -t hrithikhs/springboot-backend .
 # docker rmi <IMGID>
 # docker images
-# docker run -p 8090:8090 docker-spring-boot
+# docker run -p 8090:8090 hrithikhs/springboot-backend
 # docker login speproject.azurecr.io  Username Password -> Access keys azure
-# docker push speproject.azurecr.io/docker-spring-boot:latest
+# docker push hrithikhs/springboot-backend
 #
