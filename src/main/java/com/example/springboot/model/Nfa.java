@@ -1,5 +1,7 @@
 package com.example.springboot.model;
 
+import com.example.springboot.source.FiniteAutomaton;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,7 +12,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "nfa")
-public class Nfadfa {
+public class Nfa {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)//primary key generation.
@@ -30,12 +32,15 @@ public class Nfadfa {
 	
 	@Column(name = "transition")
 	private String transition;
+
+	@Column(name = "regular_expression")
+	private String regularExpression;
 	
-	public Nfadfa() {
+	public Nfa() {
 		
 	}
 	
-	public Nfadfa(long id, String states, String symbols, String initialState, String finalState, String transition) {
+	public Nfa(long id, String states, String symbols, String initialState, String finalState, String transition) {
 		super();
 		this.id = id;
 		this.states = states;
@@ -47,6 +52,14 @@ public class Nfadfa {
 
 	public long getId() {
 		return id;
+	}
+
+	public String getRegularExpression() {
+		return regularExpression;
+	}
+
+	public void setRegularExpression(String regularExpression) {
+		this.regularExpression = regularExpression;
 	}
 
 	public void setId(long id) {
@@ -97,10 +110,10 @@ public class Nfadfa {
 	public boolean equals(Object o) {
 		if (this == o) return true;
 		if (o == null || getClass() != o.getClass()) return false;
-		Nfadfa nfadfa = (Nfadfa) o;
+		Nfa nfa = (Nfa) o;
 
 //		if(nfadfa.id != null && nfadfa.id != id) return false;
-		return states.equals(nfadfa.states) && symbols.equals(nfadfa.symbols) && initialState.equals(nfadfa.initialState) && finalState.equals(nfadfa.finalState) && transition.equals(nfadfa.transition);
+		return states.equals(nfa.states) && symbols.equals(nfa.symbols) && initialState.equals(nfa.initialState) && finalState.equals(nfa.finalState) && transition.equals(nfa.transition);
 
 	}
 

@@ -1,6 +1,5 @@
 package com.example.springboot.exception;
 
-import com.example.springboot.controller.NfadfaController;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.http.HttpStatus;
@@ -13,6 +12,6 @@ public class ResourceNotFoundException extends RuntimeException{
 	private static final Logger logger = LogManager.getLogger(ResourceNotFoundException.class);
 	public ResourceNotFoundException(String message) {
 		super(message);
-		logger.info("[Error - ResourceNotFoundException]" + message);
+		logger.error("[Error - ResourceNotFoundException]" + message);
 	}
 }

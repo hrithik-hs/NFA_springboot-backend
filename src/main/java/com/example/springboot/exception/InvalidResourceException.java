@@ -1,6 +1,5 @@
 package com.example.springboot.exception;
 
-import com.example.springboot.controller.NfadfaController;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.http.HttpStatus;
@@ -13,6 +12,6 @@ public class InvalidResourceException extends RuntimeException{
     private static final Logger logger = LogManager.getLogger(InvalidResourceException.class);
     public InvalidResourceException(String message) {
         super(message);
-        logger.info("[Error - InvalidResourceException]" + message);
+        logger.error("[Error - InvalidResourceException]" + message);
     }
 }

@@ -2,6 +2,8 @@ package com.example.springboot.controller;
 
 import java.util.*;
 
+import com.example.springboot.model.Nfa;
+import com.example.springboot.source.FiniteAutomaton;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,36 +21,35 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.springboot.exception.ResourceNotFoundException;
 import com.example.springboot.exception.InvalidResourceException;
-import com.example.springboot.model.Nfadfa;
-import com.example.springboot.repository.NfadfaRepository;
+import com.example.springboot.repository.NfaRepository;
 
 
 //@CrossOrigin(origins="https://nfatodfa.azurewebsites.net/")
 @CrossOrigin(origins= {"http://localhost:3000/", "https://spe-nfatodfa.netlify.app"})
 @RestController
 @RequestMapping("/") // Mapping api url
-public class NfadfaController {
+public class NfaController {
 
-	private static final Logger logger = LogManager.getLogger(NfadfaController.class);
+	private static final Logger logger = LogManager.getLogger(NfaController.class);
 	@Autowired
-	private NfadfaRepository nfadfaRepository;
+	private NfaRepository nfaRepository;
 	
 	//all nfadfa
 	@GetMapping("/nfa")
-	public List<Nfadfa>getAllNfas(){
+	public List<Nfa>getAllNfas(){
 		logger.info("[Get All NFA]");
-		return nfadfaRepository.findAll();
+		return nfaRepository.findAll();
 	}
 	
 	//create nfadfa 
 	@PostMapping("/nfa")
-	public Nfadfa createNfa(@RequestBody Nfadfa nfadfa) throws InvalidResourceException {
+	public Nfa createNfa(@RequestBody Nfa nfa) throws InvalidResourceException {
 		logger.info("[Create NFA]");
-		String[] stateList = nfadfa.getStates().split(",");
-		String[] symbolList = nfadfa.getSymbols().split(",");
-		String[] finalStateList = nfadfa.getFinalState().split(",");
-		String[] initialStateList = nfadfa.getInitialState().split(",");
-		String[] transitionList = nfadfa.getTransition().split(",");
+		String[] stateList = nfa.getStates().split(",");
+		String[] symbolList = nfa.getSymbols().split(",");
+		String[] finalStateList = nfa.getFinalState().split(",");
+		String[] initialStateList = nfa.getInitialState().split(",");
+		String[] transitionList = nfa.getTransition().split(",");
 
 		Map <String, Boolean> stateMap=new HashMap<>();
 		Map <String, Boolean> symbolMap=new HashMap<>();
@@ -59,6 +60,9 @@ public class NfadfaController {
 			symbolMap.put(symbol,Boolean.TRUE);
 		}
 		boolean valid=Boolean.TRUE;
+		if(initialStateList.length!=1){
+			valid=Boolean.FALSE;
+		}
 		for(String state: finalStateList){
 			if(stateMap.containsKey(state)==Boolean.FALSE  || stateMap.get(state)== Boolean.FALSE){
 				valid=Boolean.FALSE;
@@ -80,7 +84,11 @@ public class NfadfaController {
 			}
 		}
 		if (valid){
-			return nfadfaRepository.save(nfadfa);
+			FiniteAutomaton nfa1=new FiniteAutomaton(nfa);
+
+			nfa.setRegularExpression(nfa1.getRE());
+
+			return nfaRepository.save(nfa);
 		}
 		else {
 			throw new InvalidResourceException("Input for NFA invalid");
@@ -89,36 +97,36 @@ public class NfadfaController {
 	
 	//get nfadfa by id
 	@GetMapping("/nfa/{id}")
-	public ResponseEntity<Nfadfa> getNfabyId(@PathVariable Long id){
+	public ResponseEntity<Nfa> getNfabyId(@PathVariable Long id){
 		logger.info("[Get NFA by ID] - "+ id);
-		Nfadfa nfadfa=nfadfaRepository.findById(id)
+		Nfa nfa = nfaRepository.findById(id)
 				.orElseThrow(() -> new ResourceNotFoundException("Does not exist with id: "+ id) );
-		return ResponseEntity.ok(nfadfa);
+		return ResponseEntity.ok(nfa);
 	}
 
 
 	@GetMapping("/nfa/dfa/{id}")
-	public ResponseEntity<List<Nfadfa>> getNfaDfabyId(@PathVariable Long id){
+	public ResponseEntity<List<Nfa>> getNfaDfabyId(@PathVariable Long id){
 		logger.info("[Get NFA and DFA by ID] - "+ id);
-		Nfadfa nfadfa=nfadfaRepository.findById(id)
+		Nfa nfa = nfaRepository.findById(id)
 				.orElseThrow(() -> new ResourceNotFoundException("Does not exist with id: "+ id) );
 
-		List <Nfadfa> list=new ArrayList<>();
-		list.add(nfadfa);
-		Nfadfa nfadfa1 =new Nfadfa(nfadfa.getId()+1,nfadfa.getStates(),nfadfa.getSymbols(),nfadfa.getInitialState(),nfadfa.getFinalState(),nfadfa.getTransition());
-		list.add(nfadfa1);
+		List <Nfa> list=new ArrayList<>();
+		list.add(nfa);
+		Nfa nfa1 =new Nfa(nfa.getId()+1, nfa.getStates(), nfa.getSymbols(), nfa.getInitialState(), nfa.getFinalState(), nfa.getTransition());
+		list.add(nfa1);
 
 		return ResponseEntity.ok(list);
 	}
 	// update nfadfa rest api
 	@PutMapping("/nfa/{id}")
-	public ResponseEntity<Nfadfa> updateNfa(@PathVariable Long id, @RequestBody Nfadfa nfadfaDetails) throws InvalidResourceException{
+	public ResponseEntity<Nfa> updateNfa(@PathVariable Long id, @RequestBody Nfa nfaDetails) throws InvalidResourceException{
 		logger.info("[Update NFA] - "+ id);
-		String[] stateList = nfadfaDetails.getStates().split(",");
-		String[] symbolList = nfadfaDetails.getSymbols().split(",");
-		String[] finalStateList = nfadfaDetails.getFinalState().split(",");
-		String[] initialStateList = nfadfaDetails.getInitialState().split(",");
-		String[] transitionList = nfadfaDetails.getTransition().split(",");
+		String[] stateList = nfaDetails.getStates().split(",");
+		String[] symbolList = nfaDetails.getSymbols().split(",");
+		String[] finalStateList = nfaDetails.getFinalState().split(",");
+		String[] initialStateList = nfaDetails.getInitialState().split(",");
+		String[] transitionList = nfaDetails.getTransition().split(",");
 
 		Map <String, Boolean> stateMap=new HashMap<>();
 		Map <String, Boolean> symbolMap=new HashMap<>();
@@ -129,6 +137,9 @@ public class NfadfaController {
 			symbolMap.put(symbol,Boolean.TRUE);
 		}
 		boolean valid=Boolean.TRUE;
+		if(initialStateList.length!=1){
+			valid=Boolean.FALSE;
+		}
 		for(String state: finalStateList){
 			if(stateMap.containsKey(state)==Boolean.FALSE  || stateMap.get(state)== Boolean.FALSE){
 				valid=Boolean.FALSE;
@@ -150,18 +161,20 @@ public class NfadfaController {
 			}
 		}
 		if (valid){
-			Nfadfa nfadfa=nfadfaRepository.findById(id)
+			Nfa nfa = nfaRepository.findById(id)
 					.orElseThrow(() -> new ResourceNotFoundException("Does not exist with id: "+ id) );
 
-			nfadfa.setStates(nfadfaDetails.getStates());
-			nfadfa.setSymbols(nfadfaDetails.getSymbols());
-			nfadfa.setInitialState(nfadfaDetails.getInitialState());
-			nfadfa.setFinalState(nfadfaDetails.getFinalState());
-			nfadfa.setTransition(nfadfaDetails.getTransition());
+			nfa.setStates(nfaDetails.getStates());
+			nfa.setSymbols(nfaDetails.getSymbols());
+			nfa.setInitialState(nfaDetails.getInitialState());
+			nfa.setFinalState(nfaDetails.getFinalState());
+			nfa.setTransition(nfaDetails.getTransition());
 
+			FiniteAutomaton nfa1=new FiniteAutomaton(nfa);
+			nfa.setRegularExpression(nfa1.getRE());
 
-			Nfadfa updatedNfadfa=nfadfaRepository.save(nfadfa);
-			return ResponseEntity.ok(updatedNfadfa);
+			Nfa updatedNfa = nfaRepository.save(nfa);
+			return ResponseEntity.ok(updatedNfa);
 		}
 		else {
 			throw new InvalidResourceException("Input for NFA invalid");
@@ -172,10 +185,10 @@ public class NfadfaController {
 	@DeleteMapping("/nfa/{id}")
 	public ResponseEntity<Map<String, Boolean>> deleteNfa(@PathVariable Long id){
 		logger.info("[Delete NFA] - "+ id);
-		Nfadfa nfadfa = nfadfaRepository.findById(id)
+		Nfa nfa = nfaRepository.findById(id)
 				.orElseThrow(() -> new ResourceNotFoundException("Does not exist with id: " + id));
 		
-		nfadfaRepository.delete(nfadfa);
+		nfaRepository.delete(nfa);
 		Map<String, Boolean> response = new HashMap<>();
 		response.put("deleted", Boolean.TRUE);
 		return ResponseEntity.ok(response);
