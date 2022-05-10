@@ -1,6 +1,14 @@
 - name: Pull and Run docker image
   hosts: VM-ubuntu20
   tasks:
+    - name: Stop running container
+      docker_container:
+        name: springboot-backend
+        state: stopped
+    - name: Remove container
+      docker_container:
+        name: springboot-backend
+        state: absent
     - name: Pull hrithikhs/springboot-backend image
       docker_image:
         name: hrithikhs/springboot-backend
