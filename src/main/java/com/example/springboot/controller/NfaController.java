@@ -25,7 +25,7 @@ import com.example.springboot.repository.NfaRepository;
 
 
 //@CrossOrigin(origins="https://nfatodfa.azurewebsites.net/")
-@CrossOrigin(origins= {"http://localhost:3000/", "https://spe-nfatodfa.netlify.app"})
+@CrossOrigin(origins= {"http://localhost:3000/", "https://spe-nfatodfa.netlify.app", "https://spe-nfa.netlify.app"})
 @RestController
 @RequestMapping("/") // Mapping api url
 public class NfaController {
@@ -137,17 +137,21 @@ public class NfaController {
 			symbolMap.put(symbol,Boolean.TRUE);
 		}
 		boolean valid=Boolean.TRUE;
+		int c=0;
 		if(initialStateList.length!=1){
 			valid=Boolean.FALSE;
+			c=1;
 		}
 		for(String state: finalStateList){
 			if(stateMap.containsKey(state)==Boolean.FALSE  || stateMap.get(state)== Boolean.FALSE){
 				valid=Boolean.FALSE;
+				c=2;
 			}
 		}
 		for(String state: initialStateList){
 			if(stateMap.containsKey(state)==Boolean.FALSE  || stateMap.get(state)== Boolean.FALSE){
 				valid=Boolean.FALSE;
+				c=3;
 			}
 		}
 		for(String transition: transitionList){
@@ -158,6 +162,7 @@ public class NfaController {
 					stateMap.containsKey(transList.get(2))==Boolean.FALSE  || stateMap.get(transList.get(2))== Boolean.FALSE
 			){
 				valid = Boolean.FALSE;
+				c=4;
 			}
 		}
 		if (valid){

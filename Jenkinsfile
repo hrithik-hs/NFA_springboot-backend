@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Github pull') {
             steps {
-                git branch: 'master', credentialsId: 'GitHub_credentials', url: 'https://github.com/hrithik-hs/NFAtoDFA_springboot-backend'
+                git branch: 'master', credentialsId: 'GitHub_credentials', url: 'https://github.com/hrithik-hs/NFA_springboot-backend'
             }
         }
         stage('Maven Test') {

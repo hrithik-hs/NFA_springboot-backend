@@ -1723,3 +1723,24 @@
 2022-05-11 00:30:26.854 [main] INFO  com.example.springboot.controller.NfaController - [Delete NFA] - 1
 2022-05-11 00:30:26.870 [main] INFO  com.example.springboot.controller.NfaController - [Delete NFA by ID Test Passed]
 2022-05-11 00:41:09.572 [http-nio-8090-exec-4] INFO  com.example.springboot.controller.NfaController - [Get All NFA]
+2022-05-11 11:47:08.260 [http-nio-8090-exec-2] INFO  com.example.springboot.controller.NfaController - [Get All NFA]
+2022-05-11 11:48:20.297 [http-nio-8090-exec-5] INFO  com.example.springboot.controller.NfaController - [Get All NFA]
+2022-05-11 11:49:03.002 [http-nio-8090-exec-6] INFO  com.example.springboot.controller.NfaController - [Get NFA by ID] - 1
+2022-05-11 12:03:10.616 [http-nio-8090-exec-8] INFO  com.example.springboot.controller.NfaController - [Update NFA] - 6
+2022-05-11 12:03:10.624 [http-nio-8090-exec-8] ERROR com.example.springboot.exception.InvalidResourceException - [Error - InvalidResourceException]Input for NFA invalid
+2022-05-11 12:03:28.938 [http-nio-8090-exec-1] INFO  com.example.springboot.controller.NfaController - [Get NFA by ID] - 6
+2022-05-11 12:03:42.012 [http-nio-8090-exec-2] INFO  com.example.springboot.controller.NfaController - [Update NFA] - 6
+2022-05-11 12:03:42.012 [http-nio-8090-exec-2] ERROR com.example.springboot.exception.InvalidResourceException - [Error - InvalidResourceException]Input for NFA invalid
+2022-05-11 12:05:27.262 [http-nio-8090-exec-3] INFO  com.example.springboot.controller.NfaController - [Update NFA] - 6
+2022-05-11 12:05:27.262 [http-nio-8090-exec-3] ERROR com.example.springboot.exception.InvalidResourceException - [Error - InvalidResourceException]Input for NFA invalid
+2022-05-11 12:06:08.393 [http-nio-8090-exec-6] INFO  com.example.springboot.controller.NfaController - [Update NFA] - 6
+2022-05-11 12:06:08.393 [http-nio-8090-exec-6] ERROR com.example.springboot.exception.InvalidResourceException - [Error - InvalidResourceException]Input for NFA invalid
+2022-05-11 12:06:58.415 [http-nio-8090-exec-1] INFO  com.example.springboot.controller.NfaController - [Update NFA] - 6
+2022-05-11 12:06:58.415 [http-nio-8090-exec-1] ERROR com.example.springboot.exception.InvalidResourceException - [Error - InvalidResourceException]Input for NFA invalid4
+2022-05-11 12:09:38.019 [http-nio-8090-exec-2] INFO  com.example.springboot.controller.NfaController - [Update NFA] - 6
+2022-05-11 12:09:38.027 [http-nio-8090-exec-2] ERROR com.example.springboot.exception.InvalidResourceException - [Error - InvalidResourceException]Input for NFA invalid4
+2022-05-11 12:12:51.826 [http-nio-8090-exec-4] INFO  com.example.springboot.controller.NfaController - [Update NFA] - 6
+2022-05-11 12:12:51.826 [http-nio-8090-exec-4] ERROR com.example.springboot.exception.InvalidResourceException - [Error - InvalidResourceException]Input for NFA invalid4
+2022-05-11 12:13:48.104 [http-nio-8090-exec-1] INFO  com.example.springboot.controller.NfaController - [Get NFA by ID] - 6
+2022-05-11 12:13:59.286 [http-nio-8090-exec-3] INFO  com.example.springboot.controller.NfaController - [Update NFA] - 6
+2022-05-11 12:14:30.180 [http-nio-8090-exec-4] INFO  com.example.springboot.controller.NfaController - [Get NFA by ID] - 6
