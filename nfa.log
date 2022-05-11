@@ -1722,3 +1722,4 @@
 2022-05-11 00:30:26.854 [main] INFO  com.example.springboot.controller.NfaController - [Delete NFA by ID Test]
 2022-05-11 00:30:26.854 [main] INFO  com.example.springboot.controller.NfaController - [Delete NFA] - 1
 2022-05-11 00:30:26.870 [main] INFO  com.example.springboot.controller.NfaController - [Delete NFA by ID Test Passed]
+2022-05-11 00:41:09.572 [http-nio-8090-exec-4] INFO  com.example.springboot.controller.NfaController - [Get All NFA]

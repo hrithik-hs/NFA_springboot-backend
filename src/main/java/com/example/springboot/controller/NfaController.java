@@ -174,6 +174,7 @@ public class NfaController {
 			nfa.setRegularExpression(nfa1.getRE());
 
 			Nfa updatedNfa = nfaRepository.save(nfa);
+
 			return ResponseEntity.ok(updatedNfa);
 		}
 		else {

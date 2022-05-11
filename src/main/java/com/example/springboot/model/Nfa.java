@@ -48,6 +48,7 @@ public class Nfa {
 		this.initialState = initialState;
 		this.finalState = finalState;
 		this.transition = transition;
+		this.regularExpression="";
 	}
 
 	public long getId() {
