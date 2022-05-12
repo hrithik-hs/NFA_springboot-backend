@@ -1744,3 +1744,63 @@
 2022-05-11 12:13:48.104 [http-nio-8090-exec-1] INFO  com.example.springboot.controller.NfaController - [Get NFA by ID] - 6
 2022-05-11 12:13:59.286 [http-nio-8090-exec-3] INFO  com.example.springboot.controller.NfaController - [Update NFA] - 6
 2022-05-11 12:14:30.180 [http-nio-8090-exec-4] INFO  com.example.springboot.controller.NfaController - [Get NFA by ID] - 6
+2022-05-12 14:18:40.255 [main] INFO  com.example.springboot.controller.NfaControllerTests - Starting NfaControllerTests using Java 18 on HS with PID 1900 (started by hrith in C:\Hrithik\study\8th\SPE\NFADFA\springboot-backend)
+2022-05-12 14:18:40.260 [main] DEBUG com.example.springboot.controller.NfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-12 14:18:40.261 [main] INFO  com.example.springboot.controller.NfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-12 14:18:43.159 [main] INFO  com.example.springboot.controller.NfaControllerTests - Started NfaControllerTests in 3.506 seconds (JVM running for 5.694)
+2022-05-12 14:18:43.211 [main] INFO  com.example.springboot.controller.NfaController - [Get NFA by ID Test]
+2022-05-12 14:18:43.303 [main] INFO  com.example.springboot.controller.NfaController - [Get NFA by ID] - 1
+2022-05-12 14:18:43.482 [main] INFO  com.example.springboot.controller.NfaController - [Get NFA by ID Test Passed]
+2022-05-12 14:18:43.523 [main] INFO  com.example.springboot.controller.NfaController - [Create NFA False Test]
+2022-05-12 14:18:43.577 [main] INFO  com.example.springboot.controller.NfaController - [Create NFA]
+2022-05-12 14:18:43.578 [main] ERROR com.example.springboot.exception.InvalidResourceException - [Error - InvalidResourceException]Input for NFA invalid
+2022-05-12 14:18:43.592 [main] INFO  com.example.springboot.controller.NfaController - [Create NFA False Test Passes] Input for NFA invalid
+2022-05-12 14:18:43.607 [main] INFO  com.example.springboot.controller.NfaController - [Create NFA Test]
+2022-05-12 14:18:43.613 [main] INFO  com.example.springboot.controller.NfaController - [Create NFA]
+2022-05-12 14:18:43.622 [main] INFO  com.example.springboot.controller.NfaController - [Create NFA Test Passed]
+2022-05-12 14:18:43.641 [main] INFO  com.example.springboot.controller.NfaController - [Update NFA by ID False Test]
+2022-05-12 14:18:43.647 [main] INFO  com.example.springboot.controller.NfaController - [Update NFA] - 1
+2022-05-12 14:18:43.647 [main] ERROR com.example.springboot.exception.InvalidResourceException - [Error - InvalidResourceException]Input for NFA invalid
+2022-05-12 14:18:43.650 [main] INFO  com.example.springboot.controller.NfaController - [Update NFA by ID False Test Passed] Input for NFA invalid
+2022-05-12 14:18:43.667 [main] INFO  com.example.springboot.controller.NfaController - [Update NFA by ID Test]
+2022-05-12 14:18:43.671 [main] INFO  com.example.springboot.controller.NfaController - [Update NFA] - 1
+2022-05-12 14:18:43.677 [main] INFO  com.example.springboot.controller.NfaController - [Update NFA by ID Test Passed]
+2022-05-12 14:18:43.695 [main] INFO  com.example.springboot.controller.NfaController - [Get NFA DFA by ID Test]
+2022-05-12 14:18:43.698 [main] INFO  com.example.springboot.controller.NfaController - [Get NFA and DFA by ID] - 1
+2022-05-12 14:18:43.708 [main] INFO  com.example.springboot.controller.NfaController - [Get NFA DFA by ID Test Passed]
+2022-05-12 14:18:43.725 [main] INFO  com.example.springboot.controller.NfaController - [Get All NFA Test]
+2022-05-12 14:18:43.727 [main] INFO  com.example.springboot.controller.NfaController - [Get All NFA]
+2022-05-12 14:18:43.730 [main] INFO  com.example.springboot.controller.NfaController - [Get All NFA Test Passed]
+2022-05-12 14:18:43.745 [main] INFO  com.example.springboot.controller.NfaController - [Delete NFA by ID Test]
+2022-05-12 14:18:43.748 [main] INFO  com.example.springboot.controller.NfaController - [Delete NFA] - 1
+2022-05-12 14:18:43.760 [main] INFO  com.example.springboot.controller.NfaController - [Delete NFA by ID Test Passed]
+2022-05-12 15:16:54.937 [main] INFO  com.example.springboot.controller.NfaControllerTests - Starting NfaControllerTests using Java 11.0.14.1 on HS with PID 1340 (started by hrithik in /mnt/c/Hrithik/study/8th/SPE/NFADFA/springboot-backend)
+2022-05-12 15:16:54.943 [main] DEBUG com.example.springboot.controller.NfaControllerTests - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-12 15:16:54.944 [main] INFO  com.example.springboot.controller.NfaControllerTests - No active profile set, falling back to 1 default profile: "default"
+2022-05-12 15:17:08.478 [main] INFO  com.example.springboot.controller.NfaControllerTests - Started NfaControllerTests in 16.383 seconds (JVM running for 24.528)
+2022-05-12 15:17:08.639 [main] INFO  com.example.springboot.controller.NfaController - [Get NFA by ID Test]
+2022-05-12 15:17:09.117 [main] INFO  com.example.springboot.controller.NfaController - [Get NFA by ID] - 1
+2022-05-12 15:17:10.348 [main] INFO  com.example.springboot.controller.NfaController - [Get NFA by ID Test Passed]
+2022-05-12 15:17:10.419 [main] INFO  com.example.springboot.controller.NfaController - [Create NFA False Test]
+2022-05-12 15:17:10.588 [main] INFO  com.example.springboot.controller.NfaController - [Create NFA]
+2022-05-12 15:17:10.588 [main] ERROR com.example.springboot.exception.InvalidResourceException - [Error - InvalidResourceException]Input for NFA invalid
+2022-05-12 15:17:10.605 [main] INFO  com.example.springboot.controller.NfaController - [Create NFA False Test Passes] Input for NFA invalid
+2022-05-12 15:17:10.625 [main] INFO  com.example.springboot.controller.NfaController - [Create NFA Test]
+2022-05-12 15:17:10.680 [main] INFO  com.example.springboot.controller.NfaController - [Create NFA]
+2022-05-12 15:17:10.699 [main] INFO  com.example.springboot.controller.NfaController - [Create NFA Test Passed]
+2022-05-12 15:17:10.724 [main] INFO  com.example.springboot.controller.NfaController - [Update NFA by ID False Test]
+2022-05-12 15:17:10.727 [main] INFO  com.example.springboot.controller.NfaController - [Update NFA] - 1
+2022-05-12 15:17:10.727 [main] ERROR com.example.springboot.exception.InvalidResourceException - [Error - InvalidResourceException]Input for NFA invalid
+2022-05-12 15:17:10.730 [main] INFO  com.example.springboot.controller.NfaController - [Update NFA by ID False Test Passed] Input for NFA invalid
+2022-05-12 15:17:10.769 [main] INFO  com.example.springboot.controller.NfaController - [Update NFA by ID Test]
+2022-05-12 15:17:10.773 [main] INFO  com.example.springboot.controller.NfaController - [Update NFA] - 1
+2022-05-12 15:17:10.782 [main] INFO  com.example.springboot.controller.NfaController - [Update NFA by ID Test Passed]
+2022-05-12 15:17:10.821 [main] INFO  com.example.springboot.controller.NfaController - [Get NFA DFA by ID Test]
+2022-05-12 15:17:10.824 [main] INFO  com.example.springboot.controller.NfaController - [Get NFA and DFA by ID] - 1
+2022-05-12 15:17:10.842 [main] INFO  com.example.springboot.controller.NfaController - [Get NFA DFA by ID Test Passed]
+2022-05-12 15:17:10.863 [main] INFO  com.example.springboot.controller.NfaController - [Get All NFA Test]
+2022-05-12 15:17:10.864 [main] INFO  com.example.springboot.controller.NfaController - [Get All NFA]
+2022-05-12 15:17:10.866 [main] INFO  com.example.springboot.controller.NfaController - [Get All NFA Test Passed]
+2022-05-12 15:17:10.885 [main] INFO  com.example.springboot.controller.NfaController - [Delete NFA by ID Test]
+2022-05-12 15:17:10.888 [main] INFO  com.example.springboot.controller.NfaController - [Delete NFA] - 1
+2022-05-12 15:17:10.914 [main] INFO  com.example.springboot.controller.NfaController - [Delete NFA by ID Test Passed]
